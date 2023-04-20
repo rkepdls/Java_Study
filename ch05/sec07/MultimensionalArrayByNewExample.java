@@ -7,7 +7,7 @@ public class MultimensionalArrayByNewExample {
 		//배열 항목 초기값 출력
 		for (int i=0; i<mathScores.length; i++) {            //반의 수만큼 반복
 			for (int k=0; k<mathScores[i].length; k++) {     //해당 반의 학생 수만큼 반복
-				System.out.println("mathScores[" + i + "][" + k + "]: " + mathScores[i][k]);;
+				System.out.println("mathScores[" + i + "][" + k + "]: " + mathScores[i][k]);
 			}
 		}
 		System.out.println();
@@ -22,9 +22,9 @@ public class MultimensionalArrayByNewExample {
 		int totalStudent = 0;
 		int totalMathSum = 0;
 		for (int i = 0; i < mathScores.length; i++) {       // 반의 수만큼 반복
-			totalStudent += mathScores[i].length;            // 반의 학생 수 합산
-			for (int k=0; k < mathScores[i].length; k++) {     // 해당 반의 학생 수만큼 반복
-			totalMathSum += mathScores[i][k];            // 학생 점수 합산
+			totalStudent += mathScores[i].length;           // 반의 학생 수 합산
+			for (int k=0; k < mathScores[i].length; k++) {  // 해당 반의 학생 수만큼 반복
+			totalMathSum += mathScores[i][k];               // 학생 점수 합산
 			}
 		}
 		double totalMathAvg = (double) totalMathSum / totalStudent;
