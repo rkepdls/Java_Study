@@ -7,6 +7,6 @@ public interface RemoteControl {
 	
 	//추상 메소드
 	void turnOn();
-	void trunOff();
+	void turnOff();
 	void setVolume(int volume);       //메소드 선언부만 작성
 }
